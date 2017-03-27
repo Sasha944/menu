@@ -1,0 +1,98 @@
+html{
+	
+	background-image: url(https://www.firestock.ru/wp-content/uploads/2015/05/Tumblr-Guy-Backgrounds-12-700x437.jpg);
+  background-repeat: repeat;
+
+}
+body{
+	font-family: sans-serif;
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+	}
+    
+.Menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0px;
+	text-align: center;
+}
+
+
+       .Menu:after {
+		content: "";
+        display: inline-block;
+        width: 100%;
+        font-size: 0;
+        height: 0;
+	} 
+
+
+
+.Menu-inner{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	
+	padding: 0;
+}
+
+.Menu1{
+	display: inline-block;
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu1:hover>.Menu-inner{
+	display:block;
+
+}
+
+
+.Link{
+	text-decoration: none;
+	display: inline-block;
+	
+	background:   #3CB371;
+	color:   #B0C4DE;
+	padding: 5px 25px 7px 10px;
+	
+	
+}
+.Link:hover{
+	background: #7FFFD4;
+	color: white;
+   
+}
+
+
+.Link:focus {
+	background: #708090;
+	color: white;
+}
+.Link1{
+	font-size: 17px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 15px;
+	background: #2F4F4F;
+	color:  #D3D3D3;
+	padding: 5px 1px 7px 4px;
+	width: 93px;
+}
+
+.Link1:hover{
+	background: #7FFFD4;
+	color: white;
+margin: 0;
+}
+
+
+.Link1:focus {
+	background: #708090;
+	color: white;
+}
